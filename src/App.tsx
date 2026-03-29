@@ -82,6 +82,15 @@ const translations = {
         { q: "行程可以临时调整吗？", a: "当然可以。私家定制最大的优势就是灵活，您可以随时与导游协商调整。" }
       ]
     },
+    testimonials: {
+      title: "客户真实好评",
+      desc: "来自全球华人的真实反馈，是我们不断进步的动力。",
+      items: [
+        { name: "张先生", location: "新加坡", content: "这次带全家去新疆，慧趣玩的定制非常专业。司机刘师傅不仅开车稳，还带我们去了很多小众景点，孩子们玩得很开心！", rating: 5 },
+        { name: "李女士", location: "马来西亚", content: "张家界的景色太震撼了！定制师小鱼帮我们规划的路线完美避开了人潮，酒店也选得很有特色。中文沟通完全没障碍，非常省心。", rating: 5 },
+        { name: "陈先生", location: "美国", content: "在云南度过了难忘的10天。从大理到香格里拉，每一站都安排得恰到好处。特别是那种深度游的感觉，是普通旅行团给不了的。", rating: 5 }
+      ]
+    },
     steps: {
       title: "简单三步，开启旅程",
       s1_t: "提交需求",
@@ -131,6 +140,57 @@ const translations = {
       routes: [
         { name: "北疆大环线 (10-12天)", desc: "乌鲁木齐 - 喀纳斯 - 禾木 - 赛里木湖 - 伊犁草原 - 独库公路" },
         { name: "南疆人文之旅 (8-10天)", desc: "喀什 - 帕米尔高原 - 塔县 - 库车 - 塔克拉玛干沙漠" }
+      ]
+    },
+    zhangjiajie: {
+      back: "返回首页",
+      hero_title: "奇幻张家界 · 潘多拉星球",
+      hero_subtitle: "穿梭三千奇峰，漫步云端天梯",
+      highlights_title: "必游亮点",
+      itinerary_title: "经典路线参考",
+      cta: "定制我的张家界之旅",
+      highlights: [
+        { title: "天门山", desc: "玻璃栈道，天门洞开，挑战极限，俯瞰99道弯通天大道。" },
+        { title: "袁家界", desc: "《阿凡达》哈利路亚山取景地，感受石柱林立的震撼视觉。" },
+        { title: "金鞭溪", desc: "漫步幽谷，听泉戏猴，呼吸每立方厘米10万个负氧离子的空气。" },
+        { title: "大峡谷玻璃桥", desc: "横跨峡谷的透明桥梁，挑战您的胆量，尽收峡谷美景。" }
+      ],
+      routes: [
+        { name: "张家界经典深度游 (4-5天)", desc: "天门山 - 武陵源 - 袁家界 - 天子山 - 大峡谷玻璃桥" }
+      ]
+    },
+    yunnan: {
+      back: "返回首页",
+      hero_title: "七彩云南 · 慢生活之旅",
+      hero_subtitle: "丽江古城的阳光，苍山洱海的风",
+      highlights_title: "必游亮点",
+      itinerary_title: "经典路线参考",
+      cta: "定制我的云南之旅",
+      highlights: [
+        { title: "丽江古城", desc: "漫步青石板路，感受纳西文化的韵味与慵懒的午后时光。" },
+        { title: "玉龙雪山", desc: "挑战海拔，观赏《印象丽江》实景演出，领略雪山神韵。" },
+        { title: "大理洱海", desc: "环湖骑行或乘船游湖，在双廊享受一段静谧的苍洱时光。" },
+        { title: "香格里拉", desc: "寻找心中的日月，朝圣松赞林寺，看纳帕海的草长莺飞。" }
+      ],
+      routes: [
+        { name: "滇西北经典环线 (8-10天)", desc: "昆明 - 大理 - 丽江 - 香格里拉 - 梅里雪山" }
+      ]
+    },
+    sichuan: {
+      back: "返回首页",
+      hero_title: "天府之国 · 绝美川西",
+      hero_subtitle: "这里的山水，是人间最美的童话",
+      highlights_title: "必游亮点",
+      itinerary_title: "经典路线参考",
+      cta: "定制我的四川之旅",
+      highlights: [
+        { title: "九寨沟", desc: "唯美水景，翠海叠瀑，归来不看水，体验童话般的世界。" },
+        { title: "大熊猫基地", desc: "近距离接触国宝，看憨态可掬的团团圆圆在竹林间嬉戏。" },
+        { title: "乐山大佛", desc: "依山凿成，气势磅礴，世界文化遗产，领略千年石刻魅力。" },
+        { title: "峨眉山", desc: "佛教名山，金顶云海，灵猴相伴，感受洗涤心灵的宁静。" }
+      ],
+      routes: [
+        { name: "川西自然人文之旅 (6-7天)", desc: "成都 - 九寨沟 - 黄龙 - 熊猫基地 - 乐山/峨眉" }
       ]
     }
   },
@@ -190,6 +250,15 @@ const translations = {
         { q: "行程可以臨時調整嗎？", a: "當然可以。私家定制最大的優勢就是靈活，您可以隨時與導遊協商調整。" }
       ]
     },
+    testimonials: {
+      title: "客戶真實好評",
+      desc: "來自全球華人的真實反饋，是我們不斷進步的動力。",
+      items: [
+        { name: "張先生", location: "新加坡", content: "這次帶全家去新疆，慧趣玩的定制非常專業。司機劉師傅不僅開車穩，還帶我們去了很多小眾景點，孩子們玩得很開心！", rating: 5 },
+        { name: "李女士", location: "馬來西亞", content: "張家界的景色太震撼了！定制師小魚幫我們規劃的路線完美避開了人潮，酒店也選得很有特色。中文溝通完全沒障礙，非常省心。", rating: 5 },
+        { name: "陳先生", location: "美國", content: "在雲南度過了難忘的10天。從大理到香格里拉，每一站都安排得恰到好处。特別是那種深度遊的感覺，是普通旅行團給不了的。", rating: 5 }
+      ]
+    },
     steps: {
       title: "簡單三步，開啟旅程",
       s1_t: "提交需求",
@@ -239,6 +308,57 @@ const translations = {
       routes: [
         { name: "北疆大環線 (10-12天)", desc: "烏魯木齊 - 喀納斯 - 禾木 - 賽里木湖 - 伊犁草原 - 獨庫公路" },
         { name: "南疆人文之旅 (8-10天)", desc: "喀什 - 帕米爾高原 - 塔縣 - 庫車 - 塔克拉瑪干沙漠" }
+      ]
+    },
+    zhangjiajie: {
+      back: "返回首頁",
+      hero_title: "奇幻張家界 · 潘多拉星球",
+      hero_subtitle: "穿梭三千奇峰，漫步雲端天梯",
+      highlights_title: "必遊亮點",
+      itinerary_title: "經典路線參考",
+      cta: "定制我的張家界之旅",
+      highlights: [
+        { title: "天門山", desc: "玻璃棧道，天門洞開，挑戰極限，俯瞰99道彎通天大道。" },
+        { title: "袁家界", desc: "《阿凡達》哈利路亞山取景地，感受石柱林立的震撼視覺。" },
+        { title: "金鞭溪", desc: "漫步幽谷，聽泉戲猴，呼吸每立方釐米10萬個負氧離子的空氣。" },
+        { title: "大峽谷玻璃橋", desc: "橫跨峽谷的透明橋梁，挑戰您的膽量，盡收峽谷美景。" }
+      ],
+      routes: [
+        { name: "張家界經典深度遊 (4-5天)", desc: "天門山 - 武陵源 - 袁家界 - 天子山 - 大峽谷玻璃橋" }
+      ]
+    },
+    yunnan: {
+      back: "返回首頁",
+      hero_title: "七彩雲南 · 慢生活之旅",
+      hero_subtitle: "麗江古城的陽光，蒼山洱海風",
+      highlights_title: "必遊亮點",
+      itinerary_title: "經典路線參考",
+      cta: "定制我的雲南之旅",
+      highlights: [
+        { title: "麗江古城", desc: "漫步青石板路，感受納西文化的韻味與慵懶的午後時光。" },
+        { title: "玉龍雪山", desc: "挑戰海拔，觀賞《印象麗江》實景演出，領略雪山神韻。" },
+        { title: "大理洱海", desc: "環湖騎行或乘船遊湖，在雙廊享受一段靜謐的蒼洱時光。" },
+        { title: "香格里拉", desc: "尋找心中的日月，朝聖松贊林寺，看納帕海的草長鶯飛。" }
+      ],
+      routes: [
+        { name: "滇西北經典環線 (8-10天)", desc: "昆明 - 大理 - 麗江 - 香格里拉 - 梅里雪山" }
+      ]
+    },
+    sichuan: {
+      back: "返回首頁",
+      hero_title: "天府之國 · 絕美川西",
+      hero_subtitle: "這裡的山水，是人間最美的童話",
+      highlights_title: "必遊亮點",
+      itinerary_title: "經典路線參考",
+      cta: "定制我的四川之旅",
+      highlights: [
+        { title: "九寨溝", desc: "唯美水景，翠海疊瀑，歸來不看水，體驗童話般的世界。" },
+        { title: "大熊猫基地", desc: "近距離接觸國寶，看憨態可掬的團團圓圓在竹林間嬉戲。" },
+        { title: "樂山大佛", desc: "依山鑿成，氣勢磅礴，世界文化遺產，領略千年石刻魅力。" },
+        { title: "峨眉山", desc: "佛教名山，金頂雲海，靈猴相伴，感受洗滌心靈的寧靜。" }
+      ],
+      routes: [
+        { name: "川西自然人文之旅 (6-7天)", desc: "成都 - 九寨溝 - 黃龍 - 熊猫基地 - 樂山/峨眉" }
       ]
     }
   },
@@ -298,6 +418,15 @@ const translations = {
         { q: "Can the itinerary be adjusted?", a: "Absolutely. Flexibility is the core of custom travel. Adjust anytime with your guide." }
       ]
     },
+    testimonials: {
+      title: "Customer Reviews",
+      desc: "Real feedback from Chinese travelers worldwide is our motivation to keep improving.",
+      items: [
+        { name: "Mr. Zhang", location: "Singapore", content: "Took my whole family to Xinjiang. HuiQuWan's customization was professional. Driver Mr. Liu was steady and took us to many off-the-beaten-path spots. The kids had a blast!", rating: 5 },
+        { name: "Ms. Li", location: "Malaysia", content: "Zhangjiajie's scenery is stunning! Planner Fish helped us avoid the crowds, and the hotels were unique. No communication barriers at all, very worry-free.", rating: 5 },
+        { name: "Mr. Chen", location: "USA", content: "Spent 10 unforgettable days in Yunnan. From Dali to Shangri-La, every stop was perfectly arranged. The deep travel experience is something group tours just can't provide.", rating: 5 }
+      ]
+    },
     steps: {
       title: "3 Simple Steps to Start",
       s1_t: "Submit Inquiry",
@@ -348,11 +477,62 @@ const translations = {
         { name: "North Xinjiang Loop (10-12 Days)", desc: "Urumqi - Kanas - Hemu - Sayram Lake - Ili Grasslands - Duku Highway" },
         { name: "South Xinjiang Culture (8-10 Days)", desc: "Kashgar - Pamir Plateau - Taxkorgan - Kuqa - Taklamakan Desert" }
       ]
+    },
+    zhangjiajie: {
+      back: "Back to Home",
+      hero_title: "Mystical Zhangjiajie · Avatar World",
+      hero_subtitle: "Walk among 3,000 peaks, wander the clouds",
+      highlights_title: "Must-visit Highlights",
+      itinerary_title: "Classic Itineraries",
+      cta: "Customize My Zhangjiajie Trip",
+      highlights: [
+        { title: "Tianmen Mountain", desc: "Glass skywalk, Heaven's Gate, and the 99-bend mountain road." },
+        { title: "Yuanjiajie", desc: "The inspiration for Avatar's Hallelujah Mountains. Breathtaking views." },
+        { title: "Golden Whip Stream", desc: "A peaceful walk along the valley with crystal clear water and wild monkeys." },
+        { title: "Grand Canyon Glass Bridge", desc: "The world's longest and highest glass-bottomed bridge." }
+      ],
+      routes: [
+        { name: "Zhangjiajie Deep Tour (4-5 Days)", desc: "Tianmen Mountain - Wulingyuan - Yuanjiajie - Tianzi Mountain - Glass Bridge" }
+      ]
+    },
+    yunnan: {
+      back: "Back to Home",
+      hero_title: "Colorful Yunnan · Slow Life Journey",
+      hero_subtitle: "Sunshine in Lijiang, wind over Erhai Lake",
+      highlights_title: "Must-visit Highlights",
+      itinerary_title: "Classic Itineraries",
+      cta: "Customize My Yunnan Trip",
+      highlights: [
+        { title: "Lijiang Old Town", desc: "Wander through cobblestone streets and experience Naxi culture." },
+        { title: "Jade Dragon Snow Mountain", desc: "Challenge the altitude and watch the 'Impression Lijiang' show." },
+        { title: "Dali Erhai Lake", desc: "Cycle around the lake or enjoy a quiet afternoon in Shuanglang." },
+        { title: "Shangri-La", desc: "Find the 'Sun and Moon in Heart' and visit the Songzanlin Monastery." }
+      ],
+      routes: [
+        { name: "NW Yunnan Classic Loop (8-10 Days)", desc: "Kunming - Dali - Lijiang - Shangri-La - Meili Snow Mountain" }
+      ]
+    },
+    sichuan: {
+      back: "Back to Home",
+      hero_title: "Land of Abundance · Beautiful Sichuan",
+      hero_subtitle: "Where nature creates the most beautiful fairytales",
+      highlights_title: "Must-visit Highlights",
+      itinerary_title: "Classic Itineraries",
+      cta: "Customize My Sichuan Trip",
+      highlights: [
+        { title: "Jiuzhaigou", desc: "Fairytale waters, emerald lakes, and majestic waterfalls." },
+        { title: "Panda Base", desc: "Get close to China's national treasure in their natural habitat." },
+        { title: "Leshan Giant Buddha", desc: "The world's largest stone Buddha, carved into the cliffside." },
+        { title: "Mount Emei", desc: "One of the Four Sacred Buddhist Mountains with a golden summit." }
+      ],
+      routes: [
+        { name: "Sichuan Nature & Culture (6-7 Days)", desc: "Chengdu - Jiuzhaigou - Huanglong - Panda Base - Leshan/Emei" }
+      ]
     }
   }
 };
 
-type View = "home" | "xinjiang";
+type View = "home" | "xinjiang" | "zhangjiajie" | "yunnan" | "sichuan";
 
 export default function App() {
   const [lang, setLang] = useState<Language>("sc");
@@ -441,14 +621,14 @@ export default function App() {
           <motion.span 
             key={`${lang}-tag`}
             initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-            className="text-white/80 tracking-[0.3em] uppercase text-sm mb-6 block"
+            className="text-white/80 tracking-[0.3em] uppercase text-xs md:text-sm mb-4 md:mb-6 block"
           >
             {t.hero.tag}
           </motion.span>
           <motion.h1 
             key={`${lang}-title`}
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-            className="serif text-4xl md:text-6xl lg:text-7xl text-white mb-8 leading-tight font-bold"
+            className={`serif ${lang === "en" ? "text-3xl md:text-5xl lg:text-6xl" : "text-4xl md:text-6xl lg:text-7xl"} text-white mb-6 md:mb-8 leading-tight font-bold`}
           >
             {t.hero.title}<br />
             <span className="text-amber-400">{t.hero.subtitle}</span>
@@ -456,15 +636,15 @@ export default function App() {
           <motion.p 
             key={`${lang}-desc`}
             initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-            className="text-lg md:text-xl text-white/90 mb-10 max-w-3xl mx-auto font-light leading-relaxed"
+            className={`text-base md:text-lg lg:text-xl text-white/90 ${lang === "en" ? "mb-6 md:mb-8" : "mb-10"} max-w-3xl mx-auto font-light leading-relaxed`}
           >
             {t.hero.desc}
           </motion.p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="#contact" className="bg-amber-500 hover:bg-amber-600 text-white px-10 py-4 rounded-full text-lg font-semibold transition-all shadow-xl flex items-center justify-center gap-2">
+            <a href="#contact" className="bg-amber-500 hover:bg-amber-600 text-white px-8 md:px-10 py-3 md:py-4 rounded-full text-base md:text-lg font-semibold transition-all shadow-xl flex items-center justify-center gap-2">
               {t.hero.cta} <ArrowRight className="w-5 h-5" />
             </a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer" className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-10 py-4 rounded-full text-lg font-semibold transition-all flex items-center justify-center gap-2">
+            <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer" className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 md:px-10 py-3 md:py-4 rounded-full text-base md:text-lg font-semibold transition-all flex items-center justify-center gap-2">
               <Phone className="w-5 h-5" /> {t.hero.whatsapp}
             </a>
           </div>
@@ -562,30 +742,48 @@ export default function App() {
                 <div className="flex items-center gap-2 text-amber-400 font-semibold">{t.dest.more} <ArrowRight className="w-5 h-5" /></div>
               </div>
             </button>
-            <div className="group relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl">
+            <button 
+              onClick={() => {
+                setView("zhangjiajie");
+                window.scrollTo(0, 0);
+              }}
+              className="group relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl cursor-pointer text-left"
+            >
               <img src="https://images.unsplash.com/photo-1543097692-fa13c6cd8595?q=80&w=1000&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-10 text-left">
                 <h3 className="serif text-3xl text-white mb-4 font-bold">{t.dest.zjj_title}</h3>
                 <p className="text-white/70 mb-6 font-light">{t.dest.zjj_desc}</p>
                 <div className="flex items-center gap-2 text-amber-400 font-semibold">{t.dest.more} <ArrowRight className="w-5 h-5" /></div>
               </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl">
+            </button>
+            <button 
+              onClick={() => {
+                setView("yunnan");
+                window.scrollTo(0, 0);
+              }}
+              className="group relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl cursor-pointer text-left"
+            >
               <img src="https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?q=80&w=1000&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-10 text-left">
                 <h3 className="serif text-3xl text-white mb-4 font-bold">{t.dest.yn_title}</h3>
                 <p className="text-white/70 mb-6 font-light">{t.dest.yn_desc}</p>
                 <div className="flex items-center gap-2 text-amber-400 font-semibold">{t.dest.more} <ArrowRight className="w-5 h-5" /></div>
               </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl">
+            </button>
+            <button 
+              onClick={() => {
+                setView("sichuan");
+                window.scrollTo(0, 0);
+              }}
+              className="group relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl cursor-pointer text-left"
+            >
               <img src="https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1000&auto=format&fit=crop" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-10 text-left">
                 <h3 className="serif text-3xl text-white mb-4 font-bold">{t.dest.sc_title}</h3>
                 <p className="text-white/70 mb-6 font-light">{t.dest.sc_desc}</p>
                 <div className="flex items-center gap-2 text-amber-400 font-semibold">{t.dest.more} <ArrowRight className="w-5 h-5" /></div>
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -631,6 +829,48 @@ export default function App() {
               <h3 className="serif text-xl font-bold mb-4">{t.steps.s3_t}</h3>
               <p className="text-white/50 font-light">{t.steps.s3_d}</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4.5 Customer Testimonials */}
+      <section className="py-24 px-4 bg-stone-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="serif text-3xl md:text-4xl mb-4 font-bold">{t.testimonials.title}</h2>
+            <p className="text-stone-500 max-w-2xl mx-auto">{t.testimonials.desc}</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {t.testimonials.items.map((item: any, idx: number) => (
+              <motion.div 
+                key={idx}
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                className="bg-white p-8 rounded-[2.5rem] shadow-xl border border-stone-100 flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex gap-1 mb-6">
+                    {[...Array(item.rating)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-amber-400 text-amber-400" />
+                    ))}
+                  </div>
+                  <p className="text-stone-600 font-light leading-relaxed mb-8 italic">
+                    "{item.content}"
+                  </p>
+                </div>
+                <div className="flex items-center gap-4 pt-6 border-t border-stone-100">
+                  <div className="w-12 h-12 bg-stone-100 rounded-full flex items-center justify-center text-stone-400 font-bold">
+                    {item.name[0]}
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-stone-900">{item.name}</h4>
+                    <p className="text-sm text-stone-400">{item.location}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
@@ -746,71 +986,132 @@ export default function App() {
     </>
       ) : (
         <div className="pt-24">
-          {/* Xinjiang Sub-page */}
-          <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
-            <div className="absolute inset-0 z-0">
-              <img 
-                src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?q=80&w=2000&auto=format&fit=crop" 
-                alt="Xinjiang" 
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-black/50" />
-            </div>
-            <div className="relative z-10 text-center px-4">
-              <button 
-                onClick={() => setView("home")}
-                className="inline-flex items-center gap-2 text-white/70 hover:text-white mb-8 transition-colors"
-              >
-                <ArrowRight className="w-5 h-5 rotate-180" /> {t.xinjiang.back}
-              </button>
-              <h1 className="serif text-5xl md:text-7xl text-white font-bold mb-6">{t.xinjiang.hero_title}</h1>
-              <p className="text-xl md:text-2xl text-amber-400 font-light tracking-widest">{t.xinjiang.hero_subtitle}</p>
-            </div>
-          </section>
+          {(() => {
+            const destData = t[view as keyof typeof t] as any;
+            if (!destData || view === "home") return null;
 
-          {/* Highlights */}
-          <section className="py-24 px-4 bg-white">
-            <div className="max-w-7xl mx-auto">
-              <h2 className="serif text-4xl text-center mb-16 font-bold">{t.xinjiang.highlights_title}</h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {t.xinjiang.highlights.map((h, idx) => (
-                  <div key={idx} className="group">
-                    <div className="aspect-square rounded-3xl overflow-hidden mb-6 shadow-xl">
-                      <img 
-                        src={[
-                          "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=800",
-                          "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800",
-                          "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
-                          "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?q=80&w=800"
-                        ][idx]} 
-                        alt={h.title}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h3 className="serif text-2xl font-bold mb-3">{h.title}</h3>
-                    <p className="text-stone-500 leading-relaxed">{h.desc}</p>
+            const heroImages: Record<string, string> = {
+              xinjiang: "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?q=80&w=2000&auto=format&fit=crop",
+              zhangjiajie: "https://images.unsplash.com/photo-1543097692-fa13c6cd8595?q=80&w=2000&auto=format&fit=crop",
+              yunnan: "https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?q=80&w=2000&auto=format&fit=crop",
+              sichuan: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=2000&auto=format&fit=crop"
+            };
+
+            const highlightImages: Record<string, string[]> = {
+              xinjiang: [
+                "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=800",
+                "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800",
+                "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800",
+                "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?q=80&w=800"
+              ],
+              zhangjiajie: [
+                "https://images.unsplash.com/photo-1543097692-fa13c6cd8595?q=80&w=800",
+                "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?q=80&w=800",
+                "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?q=80&w=800",
+                "https://images.unsplash.com/photo-1543097692-fa13c6cd8595?q=80&w=800"
+              ],
+              yunnan: [
+                "https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?q=80&w=800",
+                "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=800",
+                "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800",
+                "https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?q=80&w=800"
+              ],
+              sichuan: [
+                "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800",
+                "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?q=80&w=800",
+                "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800",
+                "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800"
+              ]
+            };
+
+            return (
+              <>
+                {/* Hero */}
+                <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+                  <div className="absolute inset-0 z-0">
+                    <img 
+                      src={heroImages[view] || heroImages.xinjiang} 
+                      alt={view} 
+                      className="w-full h-full object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                    <div className="absolute inset-0 bg-black/50" />
                   </div>
-                ))}
-              </div>
-            </div>
-          </section>
+                  <div className="relative z-10 text-center px-4">
+                    <button 
+                      onClick={() => setView("home")}
+                      className="inline-flex items-center gap-2 text-white/70 hover:text-white mb-8 transition-colors"
+                    >
+                      <ArrowRight className="w-5 h-5 rotate-180" /> {destData.back}
+                    </button>
+                    <h1 className="serif text-5xl md:text-7xl text-white font-bold mb-6">{destData.hero_title}</h1>
+                    <p className="text-xl md:text-2xl text-amber-400 font-light tracking-widest">{destData.hero_subtitle}</p>
+                  </div>
+                </section>
 
-          {/* Itineraries */}
-          <section className="py-24 px-4 bg-stone-100">
-            <div className="max-w-5xl mx-auto">
-              <h2 className="serif text-4xl text-center mb-16 font-bold">{t.xinjiang.itinerary_title}</h2>
-              <div className="space-y-8">
-                {t.xinjiang.routes.map((r, idx) => (
-                  <div key={idx} className="bg-white p-10 rounded-[2.5rem] shadow-xl border border-stone-200">
-                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
-                      <h3 className="serif text-2xl font-bold text-amber-600">{r.name}</h3>
-                      <div className="px-4 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-bold">
-                        {lang === "en" ? "Private Custom" : "私家定制"}
-                      </div>
+                {/* Highlights */}
+                <section className="py-24 px-4 bg-white">
+                  <div className="max-w-7xl mx-auto">
+                    <h2 className="serif text-4xl text-center mb-16 font-bold">{destData.highlights_title}</h2>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                      {destData.highlights.map((h: any, idx: number) => (
+                        <div key={idx} className="group">
+                          <div className="aspect-square rounded-3xl overflow-hidden mb-6 shadow-xl">
+                            <img 
+                              src={(highlightImages[view] || highlightImages.xinjiang)[idx]} 
+                              alt={h.title}
+                              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                              referrerPolicy="no-referrer"
+                            />
+                          </div>
+                          <h3 className="serif text-2xl font-bold mb-3">{h.title}</h3>
+                          <p className="text-stone-500 leading-relaxed">{h.desc}</p>
+                        </div>
+                      ))}
                     </div>
-                    <p className="text-stone-600 text-lg leading-relaxed mb-8">{r.desc}</p>
+                  </div>
+                </section>
+
+                {/* Itineraries */}
+                <section className="py-24 px-4 bg-stone-100">
+                  <div className="max-w-5xl mx-auto">
+                    <h2 className="serif text-4xl text-center mb-16 font-bold">{destData.itinerary_title}</h2>
+                    <div className="space-y-8">
+                      {destData.routes.map((r: any, idx: number) => (
+                        <div key={idx} className="bg-white p-10 rounded-[2.5rem] shadow-xl border border-stone-200">
+                          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
+                            <h3 className="serif text-2xl font-bold text-amber-600">{r.name}</h3>
+                            <div className="px-4 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-bold">
+                              {lang === "en" ? "Private Custom" : "私家定制"}
+                            </div>
+                          </div>
+                          <p className="text-stone-600 text-lg leading-relaxed mb-8">{r.desc}</p>
+                          <button 
+                            onClick={() => {
+                              setView("home");
+                              setTimeout(() => {
+                                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+                              }, 100);
+                            }}
+                            className="inline-flex items-center gap-2 text-stone-900 font-bold hover:gap-4 transition-all"
+                          >
+                            {lang === "en" ? "Inquire Now" : "立即咨询"} <ArrowRight className="w-5 h-5" />
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </section>
+
+                {/* CTA */}
+                <section className="py-24 px-4 bg-amber-500 text-white text-center">
+                  <div className="max-w-3xl mx-auto">
+                    <h2 className="serif text-4xl md:text-5xl font-bold mb-8">{destData.cta}</h2>
+                    <p className="text-xl text-white/90 mb-12 font-light">
+                      {lang === "en" 
+                        ? `Every trip to ${view.charAt(0).toUpperCase() + view.slice(1)} is unique. Let us design yours.` 
+                        : `每一段${destData.hero_title.split(' · ')[0]}旅程都是独一无二的，让我们为您量身打造。`}
+                    </p>
                     <button 
                       onClick={() => {
                         setView("home");
@@ -818,38 +1119,15 @@ export default function App() {
                           document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
                         }, 100);
                       }}
-                      className="inline-flex items-center gap-2 text-stone-900 font-bold hover:gap-4 transition-all"
+                      className="bg-white text-amber-600 px-12 py-5 rounded-full text-xl font-bold hover:bg-stone-100 transition-all shadow-2xl"
                     >
-                      {lang === "en" ? "Inquire Now" : "立即咨询"} <ArrowRight className="w-5 h-5" />
+                      {t.hero.cta}
                     </button>
                   </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          {/* CTA */}
-          <section className="py-24 px-4 bg-amber-500 text-white text-center">
-            <div className="max-w-3xl mx-auto">
-              <h2 className="serif text-4xl md:text-5xl font-bold mb-8">{t.xinjiang.cta}</h2>
-              <p className="text-xl text-white/90 mb-12 font-light">
-                {lang === "en" 
-                  ? "Every trip to Xinjiang is unique. Let us design yours." 
-                  : "每一段新疆旅程都是独一无二的，让我们为您量身打造。"}
-              </p>
-              <button 
-                onClick={() => {
-                  setView("home");
-                  setTimeout(() => {
-                    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-                  }, 100);
-                }}
-                className="bg-white text-amber-600 px-12 py-5 rounded-full text-xl font-bold hover:bg-stone-100 transition-all shadow-2xl"
-              >
-                {t.hero.cta}
-              </button>
-            </div>
-          </section>
+                </section>
+              </>
+            );
+          })()}
         </div>
       )}
 
